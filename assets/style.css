@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-image: url(./img/design1_image1.jpg);
+    background-position-y: 25%; 
+}
+
+body{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif,bold;
+    color: white;
+}
+
+
+h1{
+    color:rgb(219, 107, 32);
+    font-size: 50px;
+    
+}
+
+.subtitulo{
+    text-align:  center;
+    font-size: 15px;
+    background-color: rgb(219, 107, 32);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+.logo>img {
+    margin: auto;
+    width: 250px;
+}
+
+/*Barra de navegacion*/
+
+.navbar {
+
+    display: inline-flex;
+    vertical-align: top;
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav>a {
+    background-color: rgb(219, 107, 32);
+    border: 2px solid black;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav>a:hover{
+    color: black;
+    background-color:rgb(223, 22, 22);
+}
+
+
+
+
+
+/*Cajas*/
+
+.flex-container{
+    display: flex;
+    height: 45vh;
+    background-image:url(./img/fondo.jpg);
+    background-position-y: 25%;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caja{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(219, 107, 32) ; 
+    margin: 0 4rem ; 
+    padding: auto;
+
+}
+
+#contenedor-imagen img{
+    width: 300px;
+    border: 2px solid black;
+    
+}
+
+
+
+
+#main-principal{
+    display: flex;
+    background-image: url(./img/fondo.jpg);
+    background-position-y: 25%;
+
+}
+
+
+#subtitulo-game{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+
+#circulo{
+    list-style-type:square;
+}
+
+
+h3{
+    color:black;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+h4{
+    text-decoration: underline;
+}
+main p{
+    text-indent: 2rem;
+}
+
+
+#texto-caja{
+    text-decoration: none;
+}
+
+/*Tabla*/
+table,th,td {
+    border: 1px solid black;
+}
+li{
+    list-style-position: inside;
+}
+
+#lista{
+    color: black;
+}
+
+#lista-a{
+    list-style: lower-alpha;
+    margin: px;
+}
+    
+
