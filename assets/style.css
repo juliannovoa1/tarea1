@@ -42,11 +42,11 @@ h1{
 
     display: inline-flex;
     vertical-align: top;
-    width: 35%;
     height: 100%;
     align-items: center;
     justify-content: space-between;
-
+    border: 2px solid black;
+   
 }
 nav>a {
     background-color: rgb(219, 107, 32);
@@ -102,6 +102,13 @@ nav>a:hover{
     background-position-y: 25%;
 
 }
+#main-form{
+    display: flex;
+    background-image: url(./img/fondo.jpg);
+    background-position-y: 25%;
+    color: black;
+}
+
 
 
 #subtitulo-game{
