@@ -94,8 +94,6 @@ nav>a:hover{
 }
 
 
-
-
 #main-principal{
     display: flex;
     background-image: url(./img/fondo.jpg);
@@ -110,7 +108,10 @@ nav>a:hover{
 }
 
 
-
+#permission{
+    color: black;
+    
+}
 
 
 #subtitulo-game{
