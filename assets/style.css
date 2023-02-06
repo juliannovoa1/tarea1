@@ -75,12 +75,14 @@ nav>a:hover{
 }
 
 .caja{
-    height: 90vh;
+    height: 30vh;
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(219, 107, 32) ; 
     margin: 0 4rem ; 
-    padding: auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -101,6 +103,12 @@ nav>a:hover{
 }
 
 
+#boton{
+    padding: 15px;
+    display:flex;
+    font-size: 25px;
+    margin: auto;
+}
 
 
 
@@ -154,14 +162,7 @@ main p{
     text-decoration: none;
 }
 
-#boton{
- margin: 10px;
- padding: 10px;
- position: relative;
- left: 650px;
- border: 1px solid black;
 
-}
 
 /*Tabla*/
 table,th,td {
