@@ -62,23 +62,20 @@ nav>a:hover{
 }
 
 
-
-
-
 /*Cajas*/
 
 .flex-container{
     display: flex;
-    height: 45vh;
+    height: 90vh;
     background-image:url(./img/fondo.jpg);
     background-position-y: 25%;
     justify-content: center;
     align-items: center;
     
-    
 }
 
 .caja{
+    height: 90vh;
     border: 2px solid black;
     border-radius: 5px;
     background-color: rgb(219, 107, 32) ; 
@@ -87,11 +84,32 @@ nav>a:hover{
 
 }
 
+.caja1{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(219, 107, 32) ; 
+    margin: 0 4rem ; 
+    padding: auto;
+    color: black;
+
+}
+
+.caja-tabla{
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgb(219, 107, 32) ; 
+}
+
+
+
+
+
 #contenedor-imagen img{
     width: 300px;
     border: 2px solid black;
     
 }
+
 
 
 #main-principal{
@@ -100,19 +118,12 @@ nav>a:hover{
     background-position-y: 25%;
 
 }
-#main-form{
-    display: flex;
-    background-image: url(./img/fondo.jpg);
-    background-position-y: 25%;
-    color: black;
-}
 
 
 #permission{
     color: black;
     
 }
-
 
 #subtitulo-game{
     color: blanchedalmond;
@@ -143,9 +154,19 @@ main p{
     text-decoration: none;
 }
 
+#boton{
+ margin: 10px;
+ padding: 10px;
+ position: relative;
+ left: 650px;
+ border: 1px solid black;
+
+}
+
 /*Tabla*/
 table,th,td {
     border: 1px solid black;
+    flex-direction: column;
 }
 li{
     list-style-position: inside;
