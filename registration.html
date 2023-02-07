@@ -78,81 +78,81 @@
                     <input type="radio" name="num" id="fourth">
                     <label for="school">4th:</label>
                     <input type="radio" name="num" id="fith">
-                    <label for="school">5th:</label>   
+                    <label for="school">5th:</label>
                 </div>
                 <br>
 
                 <p><b>Which elementary school do you live near?</b></p>
                 <legend><b>Closest school</b></legend>
-                    <div>
-                    <input type="radio" name="sc" id="aj">
+                <div>
+                    <input type="radio" name="sc" id="aj" value="AJ Karzenmaier">
                     <label for="school">AJ Karzenmaier</label>
-                    <input type="radio" name="sc" id="green">
+                    <input type="radio" name="sc" id="green" value="Greenbay">
                     <label for="school">Greenbay</label>
-                    </div>
-                
-                    <div>
-                    <input type="radio" name="sc" id="howard">
+                </div>
+
+                <div>
+                    <input type="radio" name="sc" id="howard" value="Howard A Yeager">
                     <label for="school">Howard A Yeager</label>
-                    <input type="radio" name="sc" id="mar">
+                    <input type="radio" name="sc" id="mar" value="Marjorie P Hart">
                     <label for="school">Marjorie P Hart</label>
-                    </div>
+                </div>
 
-                    <div>
-                        <input type="radio" name="sc" id="north">
-                        <label for="school">North Elementary</label>
-                        <input type="radio" name="sc" id="south">
-                        <label for="school">South Elementary:</label>
-                    </div>
-
-
+                <div>
+                    <input type="radio" name="sc" id="north" value="North Elementary">
+                    <label for="school">North Elementary</label>
+                    <input type="radio" name="sc" id="south" value="South Elementary">
+                    <label for="school">South Elementary</label>
+                </div>
+                <br>
 
                 <p><b>What position(s) do you normally play?(check all that apply)</b></p>
                 <div>
-                    <input type="checkbox" name="" id="pos">
+                    <input type="checkbox" name="" id="pos" value="Forward">
                     <label for="forward">Forward</label>
-                    <input type="checkbox" name="" id="pos">
-                    <label for="school">Midfield</label> 
+                    <input type="checkbox" name="" id="pos" value="Midfield">
+                    <label for="school">Midfield</label>
                 </div>
                 <div>
-                    <input type="checkbox" name="" id="pos">
+                    <input type="checkbox" name="" id="pos" value="Defense">
                     <label for="school">Defense</label>
-                    <input type="checkbox" name="" id="pos">
-                    <label for="school">Goalkeeper</label>   
+                    <input type="checkbox" name="" id="pos" value="Goalkeeper">
+                    <label for="school">Goalkeeper</label>
                 </div>
-
-
+                <br>
 
                 <p><b>Uniform Size</b></p>
-                    <div>
-                    <input type="radio" name="size" id="pos">
+                <div>
+                    <input type="radio" name="size" id="pos" value="Youth Small">
                     <label for="youthsmall">Youth Small</label>
-                    <input type="radio" name="size" id="pos">
+                    <input type="radio" name="size" id="pos" value="Youth Medium">
                     <label for="youthmedium">Youth Medium</label>
-                    </div>
-                
-                    <div>
-                    <input type="radio" name="size" id="pos">
-                    <label for="youthlarge">Youth Large</label>
-                    <input type="radio" name="size" id="pos">
-                    <label for="small">Small</label>
-                    </div>
+                </div>
 
-                    <div>
-                    <input type="radio" name="size" id="pos">
+                <div>
+                    <input type="radio" name="size" id="pos" value="Youth Large">
+                    <label for="youthlarge">Youth Large</label>
+                    <input type="radio" name="size" id="pos" value="Small">
+                    <label for="small">Small</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="size" id="pos" value="Medium">
                     <label for="medium">Medium</label>
-                    <input type="radio" name="size" id="pos">
+                    <input type="radio" name="size" id="pos" value="Large">
                     <label for="large">Large</label>
-                    </div>
-                    <div>
-                    <input type="radio" name="size" id="pos">
+                </div>
+                <div>
+                    <input type="radio" name="size" id="pos" value="Extra Large">
                     <label for="extralarge">Extra Large</label>
-                    </div>
+                </div>
 
 
             </div>
 
-       
+            <br>
+            <br>
+
 
             <div class="caja1">
                 <h3>Permission Play</h3>
@@ -172,14 +172,26 @@
                     MDHL sponsored activities, wich transportation.
                     By signing below, I herebyagre andauthorizethe above. In addition, by signing below, I also
                     acknowledge that
-                    I have read the cancellation policy and agree to its terms. <br>
-                <p> Parent/GuardianSignature:</p>
-                <p> Date:</p>
-                </p>
-                <button id="boton" type="submit">Submit</button>
+                    I have read the cancellation policy and agree to its terms. </p>
 
+                <div>
+
+                </div id="caja-form">
+                <div>
+                    <label for="parent"><b> Parent/GuardianSignature:</b></label>
+                    <input type="text" name="parentsignature" id="parents">
+                </div>
+                <div>
+                    <label for="date"><b> Date:</b></label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <button id="boton" type="submit">Submit</button>
             </div>
-        </form>
+
+
+    </div>
+    </form>
 
     </div>
 
