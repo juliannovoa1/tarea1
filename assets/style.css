@@ -103,7 +103,16 @@ nav>a:hover{
 }
 
 
-
+#caja-form{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(219, 107, 32) ; 
+    flex-direction: column;
+    color: black;
+    height: 50vh;
+    margin: 0 15rem ;
+    display: list-item; 
+}
 
 #boton{
     padding: 10px;
@@ -177,6 +186,7 @@ li{
 
 #lista{
     color: black;
+    background-color: rgb(219, 107, 32) ;
 }
 
 #lista-a{
@@ -184,3 +194,20 @@ li{
 }
     
 
+
+/*Media queries*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1339px){
+
+
+}

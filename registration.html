@@ -18,7 +18,7 @@
             <img src="./assets/img/Logo_Mighty_ducks-01.png" alt="logo">
         </div>
         <nav class="navbar">
-            <a href="./index.html">Index</a>
+            <a href="./index.html">Home</a>
             <a href="./aboutMDHL.html">AboutMDHL</a>
             <a href="./game_info.html">Game-info</a>
             <a href="./rules.html">Rules</a>
@@ -32,24 +32,28 @@
     </div>
 
     <div class="flex-container">
-        <form action="">
-            <div class="caja1">
-
-                <label for="name"><b> Players first name:</b></label>
-                <input type="text" name="nombre" id="nombre">
-                <label for="last name"><b>Last name:</b></label>
-                <input type="text" name="apellido" id="apellido">
-
-
-                <label for="street"><b> Street adress:</b></label>
-                <input type="text" name="calle" id="calle">
+        <form action="./show_data.html" method="GET">
+            <div id="caja-form">
+                <div>
+                    <label for="name"><b>Players first name:</b></label>
+                    <input type="text" name="name" id="name">
+                    <label for="last name"><b>Last name:</b></label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
 
 
+                <div>
+                    <label for="street"><b> Street adress:</b></label>
+                    <input type="text" name="street" id="street">
+                </div>
 
-                <label for="name"><b> City:</b></label>
-                <input type="text" name="ciudad" id="ciudad">
-                <label for="last name"><b> Zip code:</b></label>
-                <input type="number" name="apellido" id="apellido">
+                <div>
+                    <label for="name"><b> City:</b></label>
+                    <input type="text" name="city" id="city">
+                    <label for="zipcode"><b> Zip code:</b></label>
+                    <input type="number" name="zip" id="zip">
+                </div>
+
 
 
                 <label for="name"><b>Birthdate(mm/dd/yyyy):</b></label>
@@ -61,68 +65,94 @@
                 <input type="radio" name="gender" id="male">
 
 
-                <legend><b>Grade</b></legend>
-                <label for="school">Pre-school:</label>
-                <input type="radio" name="num" id="pre">
-                <label for="school">1st:</label>
-                <input type="radio" name="num" id="first">
-                <label for="school">2nd:</label>
-                <input type="radio" name="num" id="second">
-                <label for="school">3rd:</label>
-                <input type="radio" name="num" id="third">
-                <label for="school">4th:</label>
-                <input type="radio" name="num" id="fourth">
-                <label for="school">5th:</label>
-                <input type="radio" name="num" id="fith">
+                <div>
+                    <label for="name"><b>Grade:</b></label>
+                    <input type="radio" name="num" id="pre">
+                    <label for="school">Pre-school</label>
+                    <input type="radio" name="num" id="first">
+                    <label for="school">1st:</label>
+                    <input type="radio" name="num" id="second">
+                    <label for="school">2nd:</label>
+                    <input type="radio" name="num" id="third">
+                    <label for="school">3rd:</label>
+                    <input type="radio" name="num" id="fourth">
+                    <label for="school">4th:</label>
+                    <input type="radio" name="num" id="fith">
+                    <label for="school">5th:</label>   
+                </div>
+                <br>
 
-
-                <legend><b>Which elementary school do you live near?</b></legend>
+                <p><b>Which elementary school do you live near?</b></p>
                 <legend><b>Closest school</b></legend>
-                <label for="school">AJ Karzenmaier</label>
-                <input type="radio" name="sc" id="aj">
-                <label for="school">Greenbay</label>
-                <input type="radio" name="sc" id="green">
-                <label for="school">Howard A Yeager</label>
-                <input type="radio" name="sc" id="howard">
-                <label for="school">Marjorie P Hart</label>
-                <input type="radio" name="sc" id="mar">
-                <label for="school">North Elementary</label>
-                <input type="radio" name="sc" id="north">
-                <label for="school">South Elementary:</label>
-                <input type="radio" name="sc" id="south">
-                </fieldset>
+                    <div>
+                    <input type="radio" name="sc" id="aj">
+                    <label for="school">AJ Karzenmaier</label>
+                    <input type="radio" name="sc" id="green">
+                    <label for="school">Greenbay</label>
+                    </div>
+                
+                    <div>
+                    <input type="radio" name="sc" id="howard">
+                    <label for="school">Howard A Yeager</label>
+                    <input type="radio" name="sc" id="mar">
+                    <label for="school">Marjorie P Hart</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="sc" id="north">
+                        <label for="school">North Elementary</label>
+                        <input type="radio" name="sc" id="south">
+                        <label for="school">South Elementary:</label>
+                    </div>
 
 
-                <legend><b>What position(s) do you normally play?(check all that apply)</b></legend>
-                <label for="forward">Forward</label>
-                <input type="checkbox" name="" id="pos">
-                <label for="school">Midfield</label>
-                <input type="checkbox" name="" id="pos">
-                <label for="school">Defense</label>
-                <input type="checkbox" name="" id="pos">
-                <label for="school">Goalkeeper</label>
-                <input type="checkbox" name="" id="pos">
+
+                <p><b>What position(s) do you normally play?(check all that apply)</b></p>
+                <div>
+                    <input type="checkbox" name="" id="pos">
+                    <label for="forward">Forward</label>
+                    <input type="checkbox" name="" id="pos">
+                    <label for="school">Midfield</label> 
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="pos">
+                    <label for="school">Defense</label>
+                    <input type="checkbox" name="" id="pos">
+                    <label for="school">Goalkeeper</label>   
+                </div>
 
 
-                <legend><b>Uniform Size</b></legend>
-                <label for="youthsmall">Youth Small</label>
-                <input type="radio" name="size" id="pos">
-                <label for="youthmedium">Youth Medium</label>
-                <input type="radio" name="size" id="pos">
-                <label for="youthlarge">Youth Large</label>
-                <input type="radio" name="size" id="pos">
-                <label for="small">Small</label>
-                <input type="radio" name="size" id="pos">
-                <label for="medium">Medium</label>
-                <input type="radio" name="size" id="pos">
-                <label for="large">Large</label>
-                <input type="radio" name="size" id="pos">
-                <label for="extralarge">Extra Large</label>
-                <input type="radio" name="size" id="pos">
+
+                <p><b>Uniform Size</b></p>
+                    <div>
+                    <input type="radio" name="size" id="pos">
+                    <label for="youthsmall">Youth Small</label>
+                    <input type="radio" name="size" id="pos">
+                    <label for="youthmedium">Youth Medium</label>
+                    </div>
+                
+                    <div>
+                    <input type="radio" name="size" id="pos">
+                    <label for="youthlarge">Youth Large</label>
+                    <input type="radio" name="size" id="pos">
+                    <label for="small">Small</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="size" id="pos">
+                    <label for="medium">Medium</label>
+                    <input type="radio" name="size" id="pos">
+                    <label for="large">Large</label>
+                    </div>
+                    <div>
+                    <input type="radio" name="size" id="pos">
+                    <label for="extralarge">Extra Large</label>
+                    </div>
 
 
             </div>
 
+       
 
             <div class="caja1">
                 <h3>Permission Play</h3>
