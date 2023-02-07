@@ -71,6 +71,8 @@ nav>a:hover{
     background-position-y: 25%;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem;
+
     
 }
 
@@ -114,6 +116,27 @@ nav>a:hover{
 
 }
 
+.caja-mapas{
+    height: 60vh;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(219, 107, 32) ; 
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.map-group{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    
+}
 #boton{
     padding: 10px;
     display:flex;
