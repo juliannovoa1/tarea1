@@ -223,10 +223,30 @@ li{
 
     header{
         
+
     }
 
+    .logo>img {
+        height: 70vh;
+        padding-right: 5px;
+       
+    }
+    .navbar{
+        flex-direction: row;
+    }
 
+    #contenedor-imagen img{
+    height: 70%;
+    width: 10px;
+    }
+
+    .caja{
+        height: 70%;
+        width: 10px;
+
+    }
 }
+
 
 
 
